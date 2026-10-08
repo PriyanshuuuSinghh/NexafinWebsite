@@ -1,0 +1,91 @@
+/*
+ * NexaFin design tokens — single source of truth.
+ * Tailwind v4 reads @theme and generates utilities (bg-ink-900, text-muted, etc.).
+ * JS-side consumers should reference these via CSS variables (see src/config/tokens.ts).
+ */
+@theme {
+  /* Color — navy foundation (deep brand) */
+  --color-ink-950: #040F20;
+  --color-ink-900: #071A33;
+  --color-ink-800: #0A2342;
+  --color-ink-700: #0F3060;
+  --color-ink-600: #1a4080;
+
+  /* Color — primary blue */
+  --color-blue-700: #1D4ED8;
+  --color-blue-600: #2563EB;
+  --color-blue-500: #3B82F6;
+  --color-blue-400: #60A5FA;
+  --color-blue-300: #93C5FD;
+  --color-blue-200: #BFDBFE;
+  --color-blue-100: #DBEAFE;
+  --color-blue-50:  #EFF6FF;
+
+  /* Color — neutrals (cool, blue-tinted) */
+  --color-paper: #F5F9FE;
+  --color-surface: #FFFFFF;
+  --color-sunken: #EDF1F7;
+  --color-line: #E2E8F2;
+  --color-line-strong: #C8D3E6;
+  --color-text: #071A33;
+  --color-text-muted: #475D7A;
+  --color-text-subtle: #6B7FA0;
+
+  /* Color — teal accent (secondary, use sparingly) */
+  --color-accent-700: #0A7A6E;
+  --color-accent-600: #0D9488;
+  --color-accent-500: #14B8A6;
+  --color-accent-100: #CCFBF1;
+  --color-accent-50:  #F0FDFA;
+
+  /* Color — semantic data */
+  --color-positive: #15803D;
+  --color-positive-soft: #DCFCE7;
+  --color-negative: #B91C1C;
+  --color-negative-soft: #FEE2E2;
+  --color-caution: #92400E;
+  --color-caution-soft: #FEF3C7;
+
+  /* Typography */
+  --font-sans: "Hanken Grotesk Variable", "Hanken Grotesk", ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Type scale (fluid) */
+  --text-display: clamp(2.5rem, 1.6rem + 3.6vw, 4.5rem);
+  --text-display--line-height: 1.04;
+  --text-display--letter-spacing: -0.035em;
+  --text-hero: clamp(2.5rem, 1.5rem + 3vw, 4rem);
+  --text-hero--line-height: 1.02;
+  --text-hero--letter-spacing: -0.04em;
+  --text-h2: clamp(1.875rem, 1.4rem + 1.8vw, 3rem);
+  --text-h2--line-height: 1.1;
+  --text-h2--letter-spacing: -0.028em;
+  --text-h3: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  --text-h3--line-height: 1.25;
+  --text-h3--letter-spacing: -0.015em;
+  --text-lead: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+  --text-lead--line-height: 1.55;
+
+  /* Radius — hierarchy: controls, panels, hero product */
+  --radius-control: 8px;
+  --radius-panel: 12px;
+  --radius-product: 18px;
+  --radius-hero: 22px;
+  --radius-float: 16px;
+
+  /* Elevation */
+  --shadow-panel: 0 1px 2px rgb(11 27 61 / 0.04), 0 8px 24px -12px rgb(11 27 61 / 0.12);
+  --shadow-float: 0 1px 2px rgb(11 27 61 / 0.06), 0 24px 48px -16px rgb(11 27 61 / 0.28);
+  --shadow-glass: inset 0 1px 0 rgb(255 255 255 / 0.9), 0 1px 2px rgb(7 26 51 / 0.05), 0 32px 64px -28px rgb(10 35 66 / 0.38);
+
+  /* Layout */
+  --container-page: 80rem;
+
+  /* Motion */
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+:root {
+  --spacing-section: clamp(4.5rem, 3rem + 6vw, 8.5rem);
+  --spacing-gutter: clamp(1.25rem, 0.5rem + 3vw, 2.5rem);
+}
