@@ -41,13 +41,6 @@ export const officialPartners: PartnerLogo[] = [
     slotWidth: 135,
   },
   {
-    id: "surat-peoples-bank",
-    name: "The Surat People's Co-operative Bank",
-    filename: "surat-peoples-bank.svg",
-    src: "/images/partners/surat-peoples-bank.svg",
-    slotWidth: 160,
-  },
-  {
     id: "trexo",
     name: "TREXO",
     filename: "trexo.svg",

@@ -29,7 +29,6 @@ export const partners: Partner[] = [
   { id: "phonepe", name: "PhonePe", category: "payments", slotWidth: 108 },
   { id: "payu", name: "PayU", category: "payments", slotWidth: 84 },
   { id: "pine-labs", name: "Pine Labs", category: "payments", slotWidth: 112 },
-  { id: "trexo", name: "TREXO", category: "payments", slotWidth: 92 },
 ];
 
 export const partnersMissingAssets = partners.filter((partner) => !partner.src);
