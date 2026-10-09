@@ -65,7 +65,7 @@ export function TrustSection({ title = "Your financial data stays yours.", point
               </p>
               <DemoTag tone="dark">Illustration</DemoTag>
             </div>
-            <p className="mt-1.5 text-sm text-white/55">What NexaFin can and cannot do</p>
+            <p className="mt-1.5 text-sm text-white/55">What Nixafin can and cannot do</p>
 
             <ul className="mt-6 divide-y divide-white/10 rounded-xl border border-white/10 bg-ink-950/30">
               {access.map((a) => (

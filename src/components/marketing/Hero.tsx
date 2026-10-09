@@ -28,7 +28,7 @@ export function Hero() {
             </Reveal>
             <Reveal delay={0.08} y={10}>
               <p className="mt-6 max-w-md text-lead text-text-muted text-pretty">
-                NexaFin brings your financial world together and turns complex financial activity into clear, actionable insight.
+                Nixafin brings your financial world together and turns complex financial activity into clear, actionable insight.
               </p>
             </Reveal>
             <Reveal delay={0.16} y={10}>
@@ -36,8 +36,8 @@ export function Hero() {
                 <Button href={site.links.getStarted} size="lg">
                   Get started <ArrowRight className="h-4 w-4" />
                 </Button>
-                <Button href={site.links.demo} variant="secondary" size="lg">
-                  Explore platform
+                <Button href={site.links.talkToSales} variant="secondary" size="lg">
+                  Talk to sales
                 </Button>
               </div>
             </Reveal>

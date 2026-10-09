@@ -8,14 +8,14 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
   title: "Resources",
-  description: "Guides, blog, help center and documentation for NexaFin.",
+  description: "Guides, blog, help center and documentation for Nixafin.",
 };
 
 const sections = [
-  { id: "guides", title: "Guides", description: "Step-by-step articles to help you get the most out of NexaFin." },
+  { id: "guides", title: "Guides", description: "Step-by-step articles to help you get the most out of Nixafin." },
   { id: "blog", title: "Blog", description: "Financial insights, product updates and best practices." },
   { id: "help", title: "Help Center", description: "Answers to common questions and support articles." },
-  { id: "docs", title: "Documentation", description: "Technical reference for integrations and the NexaFin API." },
+  { id: "docs", title: "Documentation", description: "Technical reference for integrations and the Nixafin API." },
 ];
 
 export default function ResourcesPage() {

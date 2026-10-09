@@ -1,11 +1,12 @@
 export const site = {
-  name: "NexaFin",
+  name: "Nixafin",
   description:
-    "NexaFin brings your accounts, spending, bills, subscriptions and net worth into one place, then helps you understand them with clear insights and answers.",
-  url: "https://nexafin.example",
+    "Nixafin brings your accounts, spending, bills, subscriptions and net worth into one place, then helps you understand them with clear insights and answers.",
+  url: "https://nixafin.com",
   links: {
     signIn: "#",
     getStarted: "#",
-    demo: "/platform",
+    talkToSales: "/contact",
+    demo: "/products/nxpay",
   },
 } as const;

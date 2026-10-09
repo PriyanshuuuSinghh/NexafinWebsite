@@ -6,7 +6,7 @@ type Props = {
 };
 
 /**
- * NexaFin's background motif: three thin data series rising across the page, drawn in once.
+ * Nixafin's background motif: three thin data series rising across the page, drawn in once.
  * Decorative only. Teal appears on one line, at low opacity.
  */
 export function FlowLines({ tone = "light", className }: Props) {

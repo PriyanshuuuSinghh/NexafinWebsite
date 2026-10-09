@@ -39,7 +39,7 @@ export function IntelligenceShowcase() {
         <Reveal>
           <SectionHeading
             title="From financial data to useful decisions."
-            description="NexaFin watches for changes, patterns and recurring costs, then says what it found in plain language."
+            description="Nixafin watches for changes, patterns and recurring costs, then says what it found in plain language."
           />
 
           <ul className="mt-10 border-t border-line" aria-label="Example insights">

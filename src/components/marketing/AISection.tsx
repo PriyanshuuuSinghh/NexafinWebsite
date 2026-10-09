@@ -11,7 +11,7 @@ export function AISection() {
         <Reveal className="order-2 lg:order-1">
           <div className="rounded-[var(--radius-product)] border border-line-strong bg-paper p-4 sm:p-6">
             <div className="mb-5 flex items-center justify-between">
-              <p className="text-sm font-medium text-ink-900">Ask NexaFin</p>
+              <p className="text-sm font-medium text-ink-900">Ask Nixafin</p>
               <DemoTag>Demo conversation</DemoTag>
             </div>
 
@@ -58,7 +58,7 @@ export function AISection() {
         <Reveal delay={0.08} className="order-1 lg:order-2">
           <SectionHeading
             title="Ask your finances a question."
-            description="The NexaFin assistant answers in plain language, grounded in your own accounts and transactions, so you do not have to dig through statements."
+            description="The Nixafin assistant answers in plain language, grounded in your own accounts and transactions, so you do not have to dig through statements."
           />
         </Reveal>
       </div>

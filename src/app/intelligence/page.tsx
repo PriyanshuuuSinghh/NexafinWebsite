@@ -8,7 +8,7 @@ import { Footer } from "@/components/marketing/Footer";
 
 export const metadata: Metadata = {
   title: "Intelligence",
-  description: "NexaFin turns raw financial data into plain-language insights, patterns and answers.",
+  description: "Nixafin turns raw financial data into plain-language insights, patterns and answers.",
 };
 
 export default function IntelligencePage() {
@@ -19,7 +19,7 @@ export default function IntelligencePage() {
         <PageHero
           eyebrow="Financial Intelligence"
           title="From raw transactions to useful insight."
-          description="NexaFin looks across your data for changes, patterns and recurring costs, then explains them in plain language."
+          description="Nixafin looks across your data for changes, patterns and recurring costs, then explains them in plain language."
         />
         <IntelligenceSection />
         <AISection />

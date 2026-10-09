@@ -1,6 +1,6 @@
 import { cn } from "@/lib/format";
 
-/** Marks illustrative UI so it is never mistaken for real NexaFin data. */
+/** Marks illustrative UI so it is never mistaken for real Nixafin data. */
 export function DemoTag({
   className,
   tone = "light",

@@ -1,97 +1,206 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+ * Nixafin navigation — single source of truth.
+ * Every link in the Navbar, Footer and mobile menu references this file.
+ * ───────────────────────────────────────────────────────────────────────────── */
+
 export type NavItem = { label: string; href: string };
 export type DropdownItem = NavItem & { description?: string };
 export type NavEntry = NavItem & { dropdown?: DropdownItem[] };
 
+/* ── Primary navigation (Navbar) ─────────────────────────────────────────── */
+
 export const primaryNav: NavEntry[] = [
   {
-    label: "Platform",
-    href: "/platform",
+    label: "Products",
+    href: "/products",
     dropdown: [
-      { label: "Financial Overview", href: "/platform", description: "Your complete financial picture" },
-      { label: "Accounts", href: "/platform#accounts", description: "All balances in one view" },
-      { label: "Transactions", href: "/platform#transactions", description: "Searchable activity ledger" },
-      { label: "Cash Flow", href: "/platform#cashflow", description: "Income and spending patterns" },
-      { label: "Subscriptions", href: "/platform#subscriptions", description: "Recurring charges surfaced" },
-      { label: "Net Worth", href: "/platform#networth", description: "Assets tracked over time" },
+      {
+        label: "NxPay",
+        href: "/products/nxpay",
+        description: "Accept and disburse payments",
+      },
+      {
+        label: "NxFlow",
+        href: "/products/nxflow",
+        description: "Automate payment workflows",
+      },
+      {
+        label: "NxCollect",
+        href: "/products/nxcollect",
+        description: "Collect recurring payments",
+      },
+      {
+        label: "NxBiz",
+        href: "/products/nxbiz",
+        description: "Business banking and payouts",
+      },
+      {
+        label: "NxSecure",
+        href: "/products/nxsecure",
+        description: "Fraud prevention and compliance",
+      },
+      {
+        label: "Bharat Connect",
+        href: "/products/bharat-connect",
+        description: "India's payment infrastructure",
+      },
     ],
   },
   {
     label: "Solutions",
     href: "/solutions",
     dropdown: [
-      { label: "Individuals", href: "/solutions#individuals", description: "Clear view without spreadsheets" },
-      { label: "Professionals", href: "/solutions#professionals", description: "Irregular income, organised" },
-      { label: "Families", href: "/solutions#families", description: "Shared household visibility" },
-      { label: "Businesses", href: "/solutions#businesses", description: "Operating cash clarity" },
+      {
+        label: "Businesses",
+        href: "/solutions#businesses",
+        description: "End-to-end payment stack",
+      },
+      {
+        label: "Platforms",
+        href: "/solutions#platforms",
+        description: "Embed payments in your platform",
+      },
+      {
+        label: "Marketplaces",
+        href: "/solutions#marketplaces",
+        description: "Split payments and vendor payouts",
+      },
+      {
+        label: "Global Businesses",
+        href: "/solutions#global",
+        description: "Accept and send money worldwide",
+      },
     ],
   },
-  { label: "Intelligence", href: "/intelligence" },
-  { label: "Security", href: "/security" },
+  {
+    label: "Developers",
+    href: "/developers",
+    dropdown: [
+      {
+        label: "Documentation",
+        href: "/developers#docs",
+        description: "Guides and technical reference",
+      },
+      {
+        label: "API Reference",
+        href: "/developers#api",
+        description: "Complete API documentation",
+      },
+      {
+        label: "SDKs",
+        href: "/developers#sdks",
+        description: "Client and server libraries",
+      },
+      {
+        label: "Integration Guides",
+        href: "/developers#guides",
+        description: "Step-by-step integration help",
+      },
+    ],
+  },
+  {
+    label: "Global",
+    href: "/global",
+    dropdown: [
+      {
+        label: "Cross-border",
+        href: "/global#cross-border",
+        description: "Send and receive internationally",
+      },
+      {
+        label: "FX",
+        href: "/global#fx",
+        description: "Competitive FX rates",
+      },
+      {
+        label: "Global Accounts",
+        href: "/global#accounts",
+        description: "Hold and manage multiple currencies",
+      },
+    ],
+  },
   {
     label: "Resources",
     href: "/resources",
     dropdown: [
-      { label: "Guides", href: "/resources#guides", description: "Step-by-step how-to articles" },
-      { label: "Blog", href: "/resources#blog", description: "Financial insights and news" },
-      { label: "Help Center", href: "/resources#help", description: "Support and documentation" },
-      { label: "Documentation", href: "/resources#docs", description: "Technical reference" },
+      {
+        label: "Blog",
+        href: "/resources#blog",
+        description: "Product updates and insights",
+      },
+      {
+        label: "Guides",
+        href: "/resources#guides",
+        description: "How-to articles and best practices",
+      },
+      {
+        label: "Help Center",
+        href: "/resources#help",
+        description: "Support and FAQs",
+      },
     ],
   },
   { label: "Pricing", href: "/pricing" },
 ];
 
+/* ── Footer navigation ───────────────────────────────────────────────────── */
+
 export type FooterGroup = { title: string; links: NavItem[] };
 
 export const footerNav: FooterGroup[] = [
   {
-    title: "Platform",
+    title: "Products",
     links: [
-      { label: "Overview", href: "/platform" },
-      { label: "Accounts", href: "/platform#accounts" },
-      { label: "Transactions", href: "/platform#transactions" },
-      { label: "Cash Flow", href: "/platform#cashflow" },
-      { label: "Subscriptions", href: "/platform#subscriptions" },
-      { label: "Net Worth", href: "/platform#networth" },
+      { label: "NxPay", href: "/products/nxpay" },
+      { label: "NxFlow", href: "/products/nxflow" },
+      { label: "NxCollect", href: "/products/nxcollect" },
+      { label: "NxBiz", href: "/products/nxbiz" },
+      { label: "NxSecure", href: "/products/nxsecure" },
+      { label: "Bharat Connect", href: "/products/bharat-connect" },
     ],
   },
   {
     title: "Solutions",
     links: [
-      { label: "Individuals", href: "/solutions#individuals" },
-      { label: "Professionals", href: "/solutions#professionals" },
-      { label: "Families", href: "/solutions#families" },
       { label: "Businesses", href: "/solutions#businesses" },
+      { label: "Platforms", href: "/solutions#platforms" },
+      { label: "Marketplaces", href: "/solutions#marketplaces" },
+      { label: "Global Businesses", href: "/solutions#global" },
     ],
   },
   {
-    title: "Intelligence",
+    title: "Developers",
     links: [
-      { label: "Financial insights", href: "/intelligence" },
-      { label: "How it works", href: "/intelligence#how-it-works" },
+      { label: "Documentation", href: "/developers#docs" },
+      { label: "API Reference", href: "/developers#api" },
+      { label: "SDKs", href: "/developers#sdks" },
+      { label: "Integration Guides", href: "/developers#guides" },
     ],
   },
   {
-    title: "Security",
+    title: "Global",
     links: [
-      { label: "Overview", href: "/security" },
-      { label: "Privacy", href: "/security#privacy" },
+      { label: "Cross-border", href: "/global#cross-border" },
+      { label: "Foreign Exchange", href: "/global#fx" },
+      { label: "Global Accounts", href: "/global#accounts" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { label: "Guides", href: "/resources#guides" },
       { label: "Blog", href: "/resources#blog" },
+      { label: "Guides", href: "/resources#guides" },
       { label: "Help Center", href: "/resources#help" },
-      { label: "Documentation", href: "/resources#docs" },
+      { label: "Pricing", href: "/pricing" },
     ],
   },
   {
     title: "Company",
     links: [
       { label: "About", href: "/about" },
-      { label: "Careers", href: "/careers" },
       { label: "Contact", href: "/contact" },
+      { label: "Security", href: "/security" },
+      { label: "Careers", href: "/careers" },
     ],
   },
   {

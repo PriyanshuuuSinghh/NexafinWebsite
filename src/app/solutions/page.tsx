@@ -7,7 +7,7 @@ import { Footer } from "@/components/marketing/Footer";
 
 export const metadata: Metadata = {
   title: "Solutions",
-  description: "NexaFin for individuals, professionals, families and businesses.",
+  description: "Nixafin solutions for businesses, platforms, marketplaces, and global enterprises.",
 };
 
 export default function SolutionsPage() {
@@ -17,8 +17,8 @@ export default function SolutionsPage() {
       <main id="main">
         <PageHero
           eyebrow="Solutions"
-          title="Built around how you manage money."
-          description="Whether you are an individual, professional, family or business, NexaFin adapts to the way you think about finances."
+          title="Engineered for your business model."
+          description="Whether you run an online business, software platform, marketplace, or global enterprise, Nixafin provides tailored payment infrastructure."
         />
         <SolutionsSection />
         <FinalCTA />

@@ -1,6 +1,6 @@
 export const solutions = [
-  { id: "individuals", title: "Individuals", body: "One clear view of accounts, spending and net worth, without spreadsheets." },
-  { id: "professionals", title: "Professionals", body: "Separate income streams, track irregular cash flow and keep records tidy." },
-  { id: "families", title: "Families", body: "Shared visibility into household bills, subscriptions and everyday spending." },
-  { id: "businesses", title: "Businesses", body: "A clearer read on operating cash and recurring costs as teams grow." },
+  { id: "businesses", title: "Businesses", body: "End-to-end payment stack to accept payments, manage cash flow, and automate payouts." },
+  { id: "platforms", title: "Platforms", body: "Embed payment acceptance and financial services directly into your SaaS or software platform." },
+  { id: "marketplaces", title: "Marketplaces", body: "Automate split payments, vendor onboarding, and seamless multi-party disbursements." },
+  { id: "global", title: "Global Businesses", body: "Accept payments from international customers and manage multi-currency operations." },
 ] as const;

@@ -19,7 +19,7 @@ export function IntelligenceSection() {
         <Reveal>
           <SectionHeading
             title="From raw transactions to useful insight."
-            description="NexaFin looks across your data for changes, patterns and recurring costs, then explains them in plain language."
+            description="Nixafin looks across your data for changes, patterns and recurring costs, then explains them in plain language."
           />
           <p className="mt-6 text-sm text-text-subtle">The examples shown here are illustrative demo output.</p>
         </Reveal>

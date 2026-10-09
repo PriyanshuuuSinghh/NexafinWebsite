@@ -8,7 +8,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "NexaFin pricing — transparent plans for every need.",
+  description: "Nixafin pricing — transparent plans for every need.",
 };
 
 export default function PricingPage() {
@@ -19,7 +19,7 @@ export default function PricingPage() {
         <PageHero
           eyebrow="Pricing"
           title="Simple, transparent pricing."
-          description="Pricing details will be published here. Join the waitlist to be notified when NexaFin launches."
+          description="Pricing details will be published here. Join the waitlist to be notified when Nixafin launches."
         />
         <Section>
           <Reveal>
@@ -27,7 +27,7 @@ export default function PricingPage() {
               <p className="text-sm font-medium text-text-muted">Pricing coming soon</p>
               <p className="mt-4 text-h3 text-ink-900">We&rsquo;re finalising our plans.</p>
               <p className="mt-3 text-[0.9375rem] leading-relaxed text-text-muted">
-                NexaFin is in early access. Pricing will be announced closer to general availability.
+                Nixafin is in early access. Pricing will be announced closer to general availability.
               </p>
             </div>
           </Reveal>

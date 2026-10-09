@@ -1,6 +1,6 @@
 /**
  * ALL VALUES BELOW ARE ILLUSTRATIVE DEMO DATA (INR).
- * They are not real users, accounts, institutions or NexaFin statistics.
+ * They are not real users, accounts, institutions or Nixafin statistics.
  */
 export const demoAccounts = [
   { id: "a1", name: "Everyday checking", kind: "Checking", balance: 18420.5 },

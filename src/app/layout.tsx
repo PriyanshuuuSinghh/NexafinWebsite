@@ -3,13 +3,13 @@ import "./globals.css";
 import { site } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: { default: "NexaFin: Understand your money. Make better decisions.", template: "%s | NexaFin" },
+  title: { default: "Nixafin: Understand your money. Make better decisions.", template: "%s | Nixafin" },
   description: site.description,
   metadataBase: new URL(site.url),
 };
 
 export const viewport: Viewport = {
-  themeColor: "#F5F9FE",
+  themeColor: "#F7FAFC",
   width: "device-width",
   initialScale: 1,
 };

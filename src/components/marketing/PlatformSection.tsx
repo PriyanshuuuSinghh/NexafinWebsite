@@ -110,7 +110,7 @@ export function PlatformSection() {
       <Reveal>
         <SectionHeading
           title="One platform for the whole picture."
-          description="Select an area to see how NexaFin organises it. Everything below uses fictional demo data."
+          description="Select an area to see how Nixafin organises it. Everything below uses fictional demo data."
         />
       </Reveal>
 

@@ -8,7 +8,7 @@ import { Footer } from "@/components/marketing/Footer";
 
 export const metadata: Metadata = {
   title: "Security",
-  description: "How NexaFin keeps your financial data private, encrypted and under your control.",
+  description: "How Nixafin keeps your financial data private, encrypted and under your control.",
 };
 
 export default function SecurityPage() {
@@ -19,7 +19,7 @@ export default function SecurityPage() {
         <PageHero
           eyebrow="Security"
           title="Your data stays yours."
-          description="NexaFin is built with a privacy-first approach. Read-only access, encrypted data, and strong authentication are foundational — not afterthoughts."
+          description="Nixafin is built with a privacy-first approach. Read-only access, encrypted data, and strong authentication are foundational — not afterthoughts."
         />
         <TrustSection title="Built for trust." points={securityPrinciples} showLink={false} />
         <FinalCTA />
